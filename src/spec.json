@@ -1,0 +1,221 @@
+{
+  "title": "Gestione dei corsi di formazione",
+  "description": "Catalogo navigabile dei corsi interni, con docenti, date, disponibilità dei posti e gestione delle iscrizioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dei corsi in programma e dei posti disponibili.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "In partenza",
+          "value": "4"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "38"
+        },
+        {
+          "label": "Iscrizioni",
+          "value": "76"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Valli",
+          "12/09/2026",
+          "6"
+        ],
+        [
+          "Strumenti collaborativi",
+          "Vela Neri",
+          "18/09/2026",
+          "3"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi Sarti",
+          "25/09/2026",
+          "8"
+        ],
+        [
+          "Comunicazione efficace",
+          "Rivo Tami",
+          "02/10/2026",
+          "5"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra i corsi per titolo, docente, data e disponibilità.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Durata",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Valli",
+          "12/09/2026",
+          "6 ore",
+          "6"
+        ],
+        [
+          "Strumenti collaborativi",
+          "Vela Neri",
+          "18/09/2026",
+          "4 ore",
+          "3"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi Sarti",
+          "25/09/2026",
+          "8 ore",
+          "8"
+        ],
+        [
+          "Comunicazione efficace",
+          "Rivo Tami",
+          "02/10/2026",
+          "5 ore",
+          "5"
+        ],
+        [
+          "Gestione delle priorità",
+          "Mira Lodi",
+          "09/10/2026",
+          "6 ore",
+          "4"
+        ],
+        [
+          "Riunioni produttive",
+          "Taro Vemi",
+          "16/10/2026",
+          "3 ore",
+          "7"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "gestione-corsi",
+      "title": "Gestione corsi",
+      "description": "Aggiungi un corso al catalogo indicando docente, date, durata e posti disponibili.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Durata",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Valli",
+          "12/09/2026",
+          "6 ore",
+          "6"
+        ],
+        [
+          "Strumenti collaborativi",
+          "Vela Neri",
+          "18/09/2026",
+          "4 ore",
+          "3"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi Sarti",
+          "25/09/2026",
+          "8 ore",
+          "8"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Durata",
+        "Posti disponibili"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Monitora le iscrizioni ai corsi e i posti ancora disponibili.",
+      "metrics": [
+        {
+          "label": "Iscrizioni registrate",
+          "value": "76"
+        },
+        {
+          "label": "In attesa",
+          "value": "5"
+        },
+        {
+          "label": "Corsi completi",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Iscritti",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Valli",
+          "12/09/2026",
+          "14",
+          "6"
+        ],
+        [
+          "Strumenti collaborativi",
+          "Vela Neri",
+          "18/09/2026",
+          "17",
+          "3"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi Sarti",
+          "25/09/2026",
+          "12",
+          "8"
+        ],
+        [
+          "Comunicazione efficace",
+          "Rivo Tami",
+          "02/10/2026",
+          "15",
+          "5"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
